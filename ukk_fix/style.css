@@ -311,11 +311,13 @@ form[method="GET"] button {
 /* Success/Error Messages */
 p {
     text-align: center;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 12px;
     margin: 20px auto;
     max-width: 600px;
     font-weight: 600;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 p[style*="color:green"] {
@@ -328,6 +330,11 @@ p[style*="color:red"] {
     background: #f8d7da;
     color: #721c24 !important;
     border: 2px solid #f5c6cb;
+}
+
+/* Links inside messages */
+p a {
+    margin-top: 10px;
 }
 
 /* Responsive Design */
@@ -421,6 +428,12 @@ p[style*="color:red"] {
 a[href="index.php"] {
     background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
     box-shadow: 0 4px 15px rgba(108, 117, 125, 0.3);
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 a[href="index.php"]:hover {
