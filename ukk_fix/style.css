@@ -152,7 +152,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(227, 30, 36, 0.3);
-    margin-top: 10px;
+    margin: 0 0 10px 0;
 }
 
 button[type="submit"]:hover,
@@ -428,12 +428,6 @@ p a {
 a[href="index.php"] {
     background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
     box-shadow: 0 4px 15px rgba(108, 117, 125, 0.3);
-    width: 100%;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 a[href="index.php"]:hover {
